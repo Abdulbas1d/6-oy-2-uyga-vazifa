@@ -1,9 +1,18 @@
 import React from 'react'
+import './index.css'
 
-function Address() {
+function Address(props) {
+  const { region, zip } = props.address
   return (
-    <div>
-        Address
+    <div className='address'>
+      <div className="addres">
+        <p></p>
+        <h3>{region}</h3>
+      </div>
+      <div className="zip">
+        <p></p>
+        <h3>{zip}</h3>
+      </div>
     </div>
   )
 }

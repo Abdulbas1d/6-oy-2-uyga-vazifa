@@ -1,0 +1,29 @@
+.cars {
+    display: flex;
+    gap: 5px;
+
+    button {
+        width: 140px;
+        height: 40px;
+        margin-top: 5px;
+        border: none;
+        background-color: aqua;
+        border-radius: 9px;
+        border: 1px solid black;
+
+        p {
+            width: 10px;
+            height: 10px;
+            background-color: rgb(255, 80, 109);
+            border-radius: 50px;
+            margin-top: 13px;
+            margin-left: 10px;
+        }
+
+        h3 {
+            position: relative;
+            bottom: 25px;
+            left: 9px;
+        }
+    }
+}

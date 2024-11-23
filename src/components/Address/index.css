@@ -1,0 +1,54 @@
+.address {
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+    .addres {
+        display: flex;
+        gap: 8px;
+        padding-left: 15px;
+        padding-top: 15px;
+
+        p {
+            width: 12px;
+            height: 12px;
+            background-color: blue;
+            border-radius: 50%;
+        }
+
+
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 6px;
+            position: relative;
+            bottom: 14px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+
+    .zip {
+        display: flex;
+        gap: 8px;
+        padding-left: 15px;
+
+        p {
+            width: 12px;
+            height: 12px;
+            background-color: blue;
+            border-radius: 50%;
+        }
+
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 6px;
+            position: relative;
+            bottom: 14px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
